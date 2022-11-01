@@ -107,3 +107,21 @@ export const getBreakdown = (timezones) => {
     };
   });
 };
+
+export const formatTZTime = (time, timezone) => {
+  return dayjs(time).tz(timezone).format("hh:mm");
+};
+
+export const minutesElapsedInDay = (time, timezone) => {
+  return (
+    dayjs(time).tz(timezone).minute() + dayjs(time).tz(timezone).hour() * 60
+  );
+};
+
+export const guessTimezone = () => {
+  return Intl.DateTimeFormat().resolvedOptions().timeZone;
+};
+
+export const getAMPM = (time, timezone) => {
+  return dayjs(time).tz(timezone).format("A");
+};
