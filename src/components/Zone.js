@@ -203,7 +203,7 @@ const Status = ({ timezone }) => {
         )}`}</div>
         <div className="timezone">{timezone}</div>
       </div>
-      <div className="users">Hello</div>
+      {/* <div className="users">Hello</div> */}
     </StyledStatus>
   );
 };

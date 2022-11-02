@@ -25,7 +25,6 @@ const Canvas = () => {
 
   console.log(timezones);
   const zones = getBreakdown(timezones);
-  console.log(zones);
 
   return (
     <StyledCanvas>
