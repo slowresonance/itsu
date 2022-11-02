@@ -4,7 +4,7 @@ const initialState = {
   timezones: [
     "Asia/Kolkata",
     "America/Chicago",
-    "America/New_York",
+    "	Asia/Dubai",
     "Europe/Tallinn",
     "Asia/Kathmandu",
   ],
