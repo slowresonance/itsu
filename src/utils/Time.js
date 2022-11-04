@@ -125,3 +125,11 @@ export const guessTimezone = () => {
 export const getAMPM = (time, timezone) => {
   return dayjs(time).tz(timezone).format("A");
 };
+
+export const getGMTOffset = (timezone) => {
+  return dayjs().tz(timezone).format("Z");
+};
+
+export const getTime = (timezone) => {
+  return dayjs().tz(timezone).format("hh:mm A");
+};

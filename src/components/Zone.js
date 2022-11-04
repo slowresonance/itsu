@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { updateTime } from "../store/time/time.slice";
 import { formatTZTime, minutesElapsedInDay, getAMPM } from "../utils/Time";
+import Breakdown from "./Breakdown";
 
 const StyledZone = styled.div`
   position: relative;
@@ -43,36 +44,6 @@ const StyledTracker = styled.div`
   left: calc(var(--left) * 100%);
 `;
 
-const StyledBreakdown = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: calc(var(--spacing) * 1px);
-`;
-
-const StyledDayGroup = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex-basis: calc(var(--width) * 100%);
-  gap: calc(var(--spacing) * 1px);
-`;
-
-const StyledDayBlock = styled.div`
-  min-height: calc(var(--height) * 1px);
-  flex-basis: calc(var(--width) * 100%);
-  border-radius: calc(var(--border-radius) * 1px);
-`;
-
-const StyledPeriodBlock = styled.div`
-  min-height: calc(var(--height) * 1px);
-  flex-basis: calc(var(--width) * 100%);
-  border-radius: calc(var(--border-radius) * 1px);
-`;
-
-const StyledPeriodGroup = styled.div`
-  display: flex;
-  gap: calc(var(--spacing) * 1px);
-`;
-
 const StyledStatus = styled.div`
   display: flex;
   justify-content: space-between;
@@ -83,110 +54,6 @@ const StyledStatus = styled.div`
     gap: 30px;
   }
 `;
-
-const DayBlock = ({ duration, day }) => {
-  const colors = {
-    yesterday: "#9B6C51",
-    today: "#A797C1",
-    tomorrow: "#A09238",
-  };
-  const preferences = useSelector((state) => state.preferences);
-  let width = duration / 24;
-  return (
-    <StyledDayBlock
-      style={{
-        "--width": width,
-        "--height": preferences.height,
-        "--border-radius": preferences.borderRadius,
-        background: colors[day],
-      }}
-    ></StyledDayBlock>
-  );
-};
-
-const PeriodBlock = ({ duration, period, dayDuration }) => {
-  const colors = {
-    am: "#D1C28B",
-    pm: "#76987C",
-  };
-  const preferences = useSelector((state) => state.preferences);
-  let width = duration / dayDuration;
-  return (
-    <StyledPeriodBlock
-      style={{
-        "--width": width,
-        "--height": preferences.height,
-        "--border-radius": preferences.borderRadius,
-        background: colors[period],
-      }}
-    ></StyledPeriodBlock>
-  );
-};
-
-const PeriodGroup = ({ am, pm, dayDuration }) => {
-  const preferences = useSelector((state) => state.preferences);
-  return (
-    <StyledPeriodGroup
-      style={{
-        "--spacing": preferences.spacing,
-      }}
-    >
-      {am !== 0 && (
-        <PeriodBlock
-          duration={am}
-          period={"am"}
-          dayDuration={dayDuration}
-        ></PeriodBlock>
-      )}
-      {pm !== 0 && (
-        <PeriodBlock
-          duration={pm}
-          period={"pm"}
-          dayDuration={dayDuration}
-        ></PeriodBlock>
-      )}
-    </StyledPeriodGroup>
-  );
-};
-
-const DayGroup = ({ duration, period, day }) => {
-  const preferences = useSelector((state) => state.preferences);
-  let width = duration / 24;
-  return duration !== 0 ? (
-    <StyledDayGroup
-      style={{
-        "--width": width,
-        "--spacing": preferences.spacing,
-      }}
-    >
-      <DayBlock duration={duration} day={day}></DayBlock>
-      <PeriodGroup {...period} dayDuration={duration}></PeriodGroup>
-    </StyledDayGroup>
-  ) : (
-    <></>
-  );
-};
-
-const Breakdown = ({ offset, timezone, breakdown }) => {
-  const days = ["yesterday", "today", "tomorrow"];
-  const preferences = useSelector((state) => state.preferences);
-  return (
-    <StyledBreakdown
-      style={{
-        "--spacing": preferences.spacing,
-      }}
-    >
-      {days.map((day) => (
-        <DayGroup
-          {...breakdown[day]}
-          day={day}
-          key={day}
-          gap={offset !== 0 ? true : false}
-        ></DayGroup>
-      ))}
-    </StyledBreakdown>
-  );
-};
 
 const Tracker = () => {
   const { time } = useSelector((state) => state.time);
@@ -233,6 +100,7 @@ const Zone = ({ zone, index }) => {
     setInterval(() => {
       dispatch(updateTime());
     }, 1000);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
