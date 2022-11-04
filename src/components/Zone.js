@@ -6,6 +6,23 @@ import { formatTZTime, minutesElapsedInDay, getAMPM } from "../utils/Time";
 
 const StyledZone = styled.div`
   position: relative;
+
+  @keyframes enter {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  --delay: 120ms;
+  --start: 0ms;
+
+  animation: enter 0.6s both;
+  animation-delay: calc(var(--stagger) * var(--delay) + var(--start));
 `;
 
 const StyledTimeline = styled.div`
@@ -208,7 +225,7 @@ const Status = ({ timezone }) => {
   );
 };
 
-const Zone = ({ zone }) => {
+const Zone = ({ zone, index }) => {
   const { timezone } = zone;
   const dispatch = useDispatch();
 
@@ -219,7 +236,7 @@ const Zone = ({ zone }) => {
   }, []);
 
   return (
-    <StyledZone>
+    <StyledZone style={{ "--stagger": index }}>
       <Timeline zone={zone}></Timeline>
       <Status timezone={timezone}></Status>
     </StyledZone>

@@ -29,7 +29,7 @@ const Canvas = () => {
   return (
     <StyledCanvas>
       {zones.map((zone, i) => (
-        <Zone zone={zone} key={i}></Zone>
+        <Zone zone={zone} key={i} index={i}></Zone>
       ))}
     </StyledCanvas>
   );
