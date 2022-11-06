@@ -6,11 +6,12 @@ import { useSelector } from "react-redux";
 
 const StyledCanvas = styled.div`
   max-width: 900px;
-  margin: 4em auto;
+  margin: 7em auto;
   display: flex;
   flex-direction: column;
   gap: 2em;
-
+  background: #141414;
+  z-index: 5;
   flex-grow: 1;
 `;
 

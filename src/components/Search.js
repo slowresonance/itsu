@@ -21,6 +21,8 @@ const StyledSearch = styled.div`
   top: 30%;
   /* transform: translateY(-50%); */
   border-radius: 4px;
+
+  z-index: 100;
 `;
 
 const StyledSearchContainer = styled.div`

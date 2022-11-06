@@ -20,6 +20,8 @@ const StyledButton = styled.div`
 
   cursor: pointer;
   user-select: none;
+
+  z-index: 10;
 `;
 
 const Button = ({ text, action }) => {

@@ -3,6 +3,7 @@ import Canvas from "./Canvas";
 import styled from "styled-components";
 import Button from "../../components/Button";
 import Search from "../../components/Search";
+import Header from "../../components/Header";
 import { toggleSearch } from "../../store/ui/ui.slice";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -21,6 +22,7 @@ const CanvasPage = () => {
 
   return (
     <StyledCanvasPage>
+      <Header></Header>
       <Canvas></Canvas>
       <Button
         text={`${isSearchOpen ? "Close Search" : "Add a new timezone"} `}
