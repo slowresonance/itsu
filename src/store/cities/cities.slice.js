@@ -8,6 +8,16 @@ const storedState = getItemFromLocalStorage("jikan") || {
       country: "JP",
       timezone: "Asia/Tokyo",
     },
+    {
+      name: "New York",
+      country: "US",
+      timezone: "America/New_York",
+    },
+    {
+      name: "Hyderabad",
+      country: "IN",
+      timezone: "Asia/Kolkata",
+    },
   ],
 };
 
