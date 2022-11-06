@@ -65,7 +65,7 @@ const DayGroup = ({ duration, period, day }) => {
   );
 };
 
-const Breakdown = ({ offset, timezone, breakdown }) => {
+const Breakdown = ({ offset, breakdown }) => {
   const days = ["yesterday", "today", "tomorrow"];
   const preferences = useSelector((state) => state.preferences);
   return (

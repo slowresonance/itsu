@@ -1,6 +1,6 @@
 const format = [
   {
-    city: "New York, US",
+    name: "New York, US",
     timezone: "America/New_York",
     country: "US",
   },

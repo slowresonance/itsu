@@ -67,16 +67,16 @@ const Tracker = () => {
   );
 };
 
-const Timeline = ({ zone }) => {
+const Timeline = ({ city }) => {
   return (
     <StyledTimeline>
       <Tracker></Tracker>
-      <Breakdown {...zone}></Breakdown>
+      <Breakdown {...city}></Breakdown>
     </StyledTimeline>
   );
 };
 
-const Status = ({ timezone }) => {
+const Status = ({ name, country, timezone }) => {
   const { time } = useSelector((state) => state.time);
   return (
     <StyledStatus>
@@ -85,15 +85,14 @@ const Status = ({ timezone }) => {
           time,
           timezone
         )}`}</div>
-        <div className="timezone">{timezone}</div>
+        <div className="city">{`${name}, ${country}`}</div>
       </div>
-      {/* <div className="users">Hello</div> */}
     </StyledStatus>
   );
 };
 
-const Zone = ({ zone, index }) => {
-  const { timezone } = zone;
+const Zone = ({ city, index }) => {
+  const { name, country, timezone } = city;
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -105,8 +104,8 @@ const Zone = ({ zone, index }) => {
 
   return (
     <StyledZone style={{ "--stagger": index }}>
-      <Timeline zone={zone}></Timeline>
-      <Status timezone={timezone}></Status>
+      <Timeline city={city}></Timeline>
+      <Status name={name} country={country} timezone={timezone}></Status>
     </StyledZone>
   );
 };

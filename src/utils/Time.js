@@ -92,20 +92,16 @@ const tomorrowBreakdown = (offset) => {
   };
 };
 
-export const getBreakdown = (timezones) => {
-  const defaultTimezone = timezones[0];
-  return timezones.map((timezone) => {
-    const offset = getOffset(timezone, defaultTimezone);
-    return {
-      offset: offset,
-      timezone: timezone,
-      breakdown: {
-        yesterday: yesterdayBreakdown(offset),
-        today: todayBreakdown(offset),
-        tomorrow: tomorrowBreakdown(offset),
-      },
-    };
-  });
+export const getBreakdown = (timezone, defaultTimezone) => {
+  const offset = getOffset(timezone, defaultTimezone);
+  return {
+    offset: offset,
+    breakdown: {
+      yesterday: yesterdayBreakdown(offset),
+      today: todayBreakdown(offset),
+      tomorrow: tomorrowBreakdown(offset),
+    },
+  };
 };
 
 export const formatTZTime = (time, timezone) => {

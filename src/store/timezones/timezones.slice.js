@@ -1,30 +1,44 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  timezones: [
-    "Asia/Kolkata",
-    "America/Chicago",
-    "Asia/Dubai",
-    "Europe/Tallinn",
-    "Asia/Kathmandu",
+  cities: [
+    {
+      name: "Dallas",
+      timezone: "America/Chicago",
+      country: "US",
+    },
+    {
+      name: "Dubai",
+      timezone: "Asia/Dubai",
+      country: "AE",
+    },
   ],
+  defaultCity: {
+    name: "Hyderabad",
+    timezone: "Asia/Kolkata",
+    country: "IN",
+  },
 };
 
 export const timezonesSlice = createSlice({
   name: "timezones",
   initialState,
   reducers: {
-    addTimezone: (state, action) => {
-      state.timezones.push(action.payload);
+    addCity: (state, action) => {
+      state.cities.push(action.payload);
     },
-    removeTimezone: (state, action) => {
-      state.timezones = state.timezones.filter(
+    removeCity: (state, action) => {
+      state.cities = state.timezones.filter(
         (timezone) => timezone !== action.payload
       );
+    },
+    addDefaultCity: (state, action) => {
+      state.defaultTimezone = action.payload;
     },
   },
 });
 
-export const { addTimezone, removeTimezone } = timezonesSlice.actions;
+export const { addCity, addDefaultCity, removeTimezone } =
+  timezonesSlice.actions;
 
 export default timezonesSlice.reducer;

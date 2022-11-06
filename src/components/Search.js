@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { getGMTOffset, getTime } from "./../utils/Time";
+import { addCity } from "../store/timezones/timezones.slice";
+import { toggleSearch } from "../store/ui/ui.slice";
+import { useDispatch } from "react-redux";
 
 const StyledSearch = styled.div`
   display: flex;
@@ -136,6 +139,7 @@ const Search = () => {
   const [cities, setCities] = React.useState([]);
   const [results, setResults] = React.useState([]);
   const [query, setQuery] = React.useState("");
+  const dispatch = useDispatch();
 
   const fetchCities = async () => {
     await fetch("./cities.json").then((res) => {
@@ -169,12 +173,28 @@ const Search = () => {
       const res = searchCities(query);
       setResults(
         res.map((city) => ({
-          city: `${city["name"]}, ${city["iso2"]}`,
+          city: city["name"],
           timezone: getGMTOffset(city["timezone"]),
           time: getTime(city["timezone"]),
+          tz: city["timezone"],
+          country: city["iso2"],
         }))
       );
     }
+  };
+
+  const handleSelect = (result) => {
+    dispatch(
+      addCity({
+        name: result.city,
+        timezone: result.tz,
+        country: result.country,
+      })
+    );
+
+    setQuery("");
+    dispatch(toggleSearch());
+    setResults([]);
   };
 
   useEffect(() => {
@@ -195,6 +215,8 @@ const Search = () => {
             onChange={(e) => {
               setQuery(e.target.value);
             }}
+            autoFocus
+            value={query}
           ></StyledSearchInput>
         </StyledSearchContainer>
         {query.length > 0 && (
@@ -214,13 +236,14 @@ const Search = () => {
               results.map((result, index) => (
                 <StyledResult
                   key={index}
-                  // style={{
-                  //   "--stagger": index + 1,
-                  // }}
+                  onClick={() => {
+                    console.log(result);
+                    handleSelect(result);
+                  }}
                 >
                   <div className="left">
                     <div className="timezone">{result.timezone}</div>
-                    <div className="city">{result.city}</div>
+                    <div className="city">{`${result.city}, ${result.country}`}</div>
                   </div>
                   <div className="right">
                     <div className="time">{result.time}</div>
