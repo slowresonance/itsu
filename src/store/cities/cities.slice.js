@@ -4,26 +4,11 @@ import { getItemFromLocalStorage } from "../../utils/Local";
 const storedState = getItemFromLocalStorage("jikan") || {
   cities: [
     {
-      name: "Dallas",
-      timezone: "America/Chicago",
-      country: "US",
-    },
-    {
-      name: "Dubai",
-      timezone: "Asia/Dubai",
-      country: "AE",
-    },
-    {
-      name: "New York",
-      timezone: "America/New_York",
-      country: "US",
+      name: "Tokyo",
+      country: "JP",
+      timezone: "Asia/Tokyo",
     },
   ],
-  defaultCity: {
-    name: "Hyderabad",
-    timezone: "Asia/Kolkata",
-    country: "IN",
-  },
 };
 
 const initialState = storedState;
@@ -36,16 +21,16 @@ export const citiesSlice = createSlice({
       state.cities.push(action.payload);
     },
     removeCity: (state, action) => {
-      state.cities = state.timezones.filter(
-        (timezone) => timezone !== action.payload
-      );
+      state.cities.splice(action.payload, 1);
     },
-    addDefaultCity: (state, action) => {
-      state.defaultTimezone = action.payload;
+    changeDefaultCity: (state, action) => {
+      const newDefaultCity = state.cities[action.payload];
+      const newCities = state.cities.filter((_, i) => i !== action.payload);
+      state.cities = [newDefaultCity, ...newCities];
     },
   },
 });
 
-export const { addCity, addDefaultCity, removeTimezone } = citiesSlice.actions;
+export const { addCity, removeCity, changeDefaultCity } = citiesSlice.actions;
 
 export default citiesSlice.reducer;

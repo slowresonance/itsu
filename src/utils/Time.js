@@ -126,6 +126,7 @@ export const getGMTOffset = (timezone) => {
   return dayjs().tz(timezone).format("Z");
 };
 
+console.log(getGMTOffset("America/New_York"));
 export const getTime = (timezone) => {
   return dayjs().tz(timezone).format("hh:mm A");
 };

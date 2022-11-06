@@ -1,14 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import Zone from "../../components/Zone";
-import { getBreakdown, guessTimezone } from "../../utils/Time";
+import { getBreakdown } from "../../utils/Time";
 import { useSelector, useDispatch } from "react-redux";
-import { addDefaultCity } from "../../store/cities/cities.slice";
 
 const StyledCanvas = styled.div`
   max-width: 900px;
   margin: 4em auto;
-
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -17,38 +15,23 @@ const StyledCanvas = styled.div`
 `;
 
 const Canvas = () => {
-  const { defaultCity, cities } = useSelector((state) => state.cities);
+  const { cities } = useSelector((state) => state.cities);
 
-  const dispatch = useDispatch();
+  const defaultCity = cities[0];
 
-  if (cities.length < 1) {
-    dispatch(addDefaultCity(guessTimezone()));
-  }
+  const citiesData = cities.map((city) => {
+    return {
+      ...city,
+      ...getBreakdown(city.timezone, defaultCity["timezone"]),
+    };
+  });
 
-  const defaultTimezone = defaultCity["timezone"];
-
-  const zones = [
-    {
-      ...defaultCity,
-      ...getBreakdown(defaultTimezone, defaultTimezone),
-    },
-  ];
-
-  zones.push(
-    ...cities.map((city) => {
-      return {
-        ...city,
-        ...getBreakdown(city.timezone, defaultTimezone),
-      };
-    })
-  );
-
-  console.log(zones);
+  console.log(citiesData);
 
   return (
     <StyledCanvas>
-      {zones.map((zone, i) => (
-        <Zone city={zone} key={i} index={i}></Zone>
+      {citiesData.map((city, i) => (
+        <Zone city={city} key={i} index={i}></Zone>
       ))}
     </StyledCanvas>
   );

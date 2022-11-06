@@ -2,7 +2,15 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { updateTime } from "../store/time/time.slice";
-import { formatTZTime, minutesElapsedInDay, getAMPM } from "../utils/Time";
+import { StarIcon, BinIcon } from "../assets/Icons";
+import { removeCity, changeDefaultCity } from "../store/cities/cities.slice";
+
+import {
+  formatTZTime,
+  minutesElapsedInDay,
+  getAMPM,
+  getGMTOffset,
+} from "../utils/Time";
 import Breakdown from "./Breakdown";
 
 const StyledZone = styled.div`
@@ -51,7 +59,56 @@ const StyledStatus = styled.div`
 
   .timezone-info {
     display: flex;
-    gap: 30px;
+    .time {
+      margin-right: 30px;
+    }
+    .city {
+      margin-right: 8px;
+    }
+    .gmt-offset {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  .status-menu {
+    display: flex;
+    gap: 1em;
+    cursor: pointer;
+
+    .star {
+      svg {
+        fill: #494949;
+
+        &:hover {
+          fill: #ccc;
+        }
+      }
+
+      &.default {
+        cursor: auto;
+        svg {
+          fill: #f2c94c;
+        }
+
+        &:hover {
+          fill: #f2c94c;
+        }
+      }
+      padding: 5px;
+      margin: -5px;
+    }
+
+    .delete {
+      &:hover {
+        svg {
+          path {
+            stroke: #ff8888;
+          }
+        }
+      }
+      padding: 5px;
+      margin: -5px;
+    }
   }
 `;
 
@@ -76,7 +133,8 @@ const Timeline = ({ city }) => {
   );
 };
 
-const Status = ({ name, country, timezone }) => {
+const Status = ({ name, country, timezone, index }) => {
+  const dispatch = useDispatch();
   const { time } = useSelector((state) => state.time);
   return (
     <StyledStatus>
@@ -86,6 +144,24 @@ const Status = ({ name, country, timezone }) => {
           timezone
         )}`}</div>
         <div className="city">{`${name}, ${country}`}</div>
+        <div className="gmt-offset">{getGMTOffset(timezone)}</div>
+      </div>
+      <div className="status-menu">
+        {index !== 0 && (
+          <div className="delete" onClick={() => dispatch(removeCity(index))}>
+            <BinIcon></BinIcon>
+          </div>
+        )}
+        <div
+          className={`star ${index === 0 && "default"}`}
+          onClick={() => {
+            if (index !== 0) {
+              dispatch(changeDefaultCity(index));
+            }
+          }}
+        >
+          <StarIcon></StarIcon>
+        </div>
       </div>
     </StyledStatus>
   );
@@ -105,7 +181,12 @@ const Zone = ({ city, index }) => {
   return (
     <StyledZone style={{ "--stagger": index }}>
       <Timeline city={city}></Timeline>
-      <Status name={name} country={country} timezone={timezone}></Status>
+      <Status
+        name={name}
+        country={country}
+        timezone={timezone}
+        index={index}
+      ></Status>
     </StyledZone>
   );
 };
