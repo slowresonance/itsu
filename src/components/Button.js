@@ -5,7 +5,7 @@ const StyledButton = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 14px;
+  padding: 8px 20px;
   gap: 10px;
 
   width: max-content;
@@ -19,12 +19,12 @@ const StyledButton = styled.div`
   margin: auto;
 
   cursor: pointer;
+  user-select: none;
 `;
 
-const Button = ({ icon, text, action }) => {
+const Button = ({ text, action }) => {
   return (
     <StyledButton onClick={() => action()}>
-      <div className="icon">{icon}</div>
       <div className="text">{text}</div>
     </StyledButton>
   );

@@ -14,7 +14,27 @@ export const GlobalStyle = createGlobalStyle`
   body {
     color: #eeeeee;
     background: #141414;
-    padding: 1em;
+    padding: 0 1em;
+  }
+
+  *::-webkit-scrollbar {
+  width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    border-radius: 8px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    height: 56px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: #666666;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
   }
 `;
 

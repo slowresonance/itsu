@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Zone from "../../components/Zone";
 import { getBreakdown } from "../../utils/Time";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 const StyledCanvas = styled.div`
   max-width: 900px;
@@ -25,8 +25,6 @@ const Canvas = () => {
       ...getBreakdown(city.timezone, defaultCity["timezone"]),
     };
   });
-
-  console.log(citiesData);
 
   return (
     <StyledCanvas>

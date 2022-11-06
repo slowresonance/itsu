@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useCallback } from "react";
 import styled from "styled-components";
 import { getGMTOffset, getTime } from "./../utils/Time";
 import { addCity } from "../store/cities/cities.slice";
@@ -6,6 +6,8 @@ import { toggleSearch } from "../store/ui/ui.slice";
 import { useDispatch } from "react-redux";
 
 const StyledSearch = styled.div`
+  transition: opacity 0.2s ease;
+
   display: flex;
   flex-direction: column;
   background-color: rgba(22, 22, 22, 0.99);
@@ -197,6 +199,25 @@ const Search = () => {
     setResults([]);
   };
 
+  const handleQuery = (e) => {
+    setQuery(e.target.value);
+  };
+
+  const escFunction = useCallback((event) => {
+    if (event.key === "Escape") {
+      setQuery("");
+      dispatch(toggleSearch());
+      setResults([]);
+    }
+  }, []);
+
+  useEffect(() => {
+    document.addEventListener("keydown", escFunction, false);
+
+    return () => {
+      document.removeEventListener("keydown", escFunction, false);
+    };
+  }, []);
   useEffect(() => {
     handleSearch();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -212,9 +233,7 @@ const Search = () => {
             type="text"
             spellCheck="false"
             autoComplete="chrome-off"
-            onChange={(e) => {
-              setQuery(e.target.value);
-            }}
+            onChange={handleQuery}
             autoFocus
             value={query}
           ></StyledSearchInput>
@@ -237,7 +256,6 @@ const Search = () => {
                 <StyledResult
                   key={index}
                   onClick={() => {
-                    console.log(result);
                     handleSelect(result);
                   }}
                 >

@@ -16,7 +16,7 @@ import Breakdown from "./Breakdown";
 const StyledZone = styled.div`
   position: relative;
 
-  @keyframes enter {
+  @keyframes flow {
     from {
       opacity: 0;
       transform: translateY(-10px);
@@ -30,7 +30,7 @@ const StyledZone = styled.div`
   --delay: 120ms;
   --start: 0ms;
 
-  animation: enter 0.6s both;
+  animation: flow 0.6s both;
   animation-delay: calc(var(--stagger) * var(--delay) + var(--start));
 `;
 
@@ -60,7 +60,8 @@ const StyledStatus = styled.div`
   .timezone-info {
     display: flex;
     .time {
-      margin-right: 30px;
+      width: 80px;
+      margin-right: 20px;
     }
     .city {
       margin-right: 8px;
@@ -80,7 +81,7 @@ const StyledStatus = styled.div`
         fill: #494949;
 
         &:hover {
-          fill: #ccc;
+          fill: #f2c94c;
         }
       }
 
