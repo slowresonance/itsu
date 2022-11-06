@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { getGMTOffset, getTime } from "./../utils/Time";
-import { addCity } from "../store/timezones/timezones.slice";
+import { addCity } from "../store/cities/cities.slice";
 import { toggleSearch } from "../store/ui/ui.slice";
 import { useDispatch } from "react-redux";
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Zone from "../../components/Zone";
 import { getBreakdown, guessTimezone } from "../../utils/Time";
 import { useSelector, useDispatch } from "react-redux";
-import { addDefaultCity } from "../../store/timezones/timezones.slice";
+import { addDefaultCity } from "../../store/cities/cities.slice";
 
 const StyledCanvas = styled.div`
   max-width: 900px;
@@ -17,7 +17,7 @@ const StyledCanvas = styled.div`
 `;
 
 const Canvas = () => {
-  const { defaultCity, cities } = useSelector((state) => state.timezones);
+  const { defaultCity, cities } = useSelector((state) => state.cities);
 
   const dispatch = useDispatch();
 

@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { getItemFromLocalStorage } from "../../utils/Local";
 
-const initialState = {
+const storedState = getItemFromLocalStorage("jikan") || {
   cities: [
     {
       name: "Dallas",
@@ -12,6 +13,11 @@ const initialState = {
       timezone: "Asia/Dubai",
       country: "AE",
     },
+    {
+      name: "New York",
+      timezone: "America/New_York",
+      country: "US",
+    },
   ],
   defaultCity: {
     name: "Hyderabad",
@@ -20,8 +26,10 @@ const initialState = {
   },
 };
 
-export const timezonesSlice = createSlice({
-  name: "timezones",
+const initialState = storedState;
+
+export const citiesSlice = createSlice({
+  name: "cities",
   initialState,
   reducers: {
     addCity: (state, action) => {
@@ -38,7 +46,6 @@ export const timezonesSlice = createSlice({
   },
 });
 
-export const { addCity, addDefaultCity, removeTimezone } =
-  timezonesSlice.actions;
+export const { addCity, addDefaultCity, removeTimezone } = citiesSlice.actions;
 
-export default timezonesSlice.reducer;
+export default citiesSlice.reducer;
