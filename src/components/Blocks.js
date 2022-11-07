@@ -40,8 +40,6 @@ const PeriodBlock = ({ duration, period, dayDuration }) => {
   const { themes, currentTheme } = useSelector((state) => state.preferences);
   const theme = themes[currentTheme];
   const colors = {
-    // am: "#D1C28B",
-    // pm: "#76987C",
     am: theme.blocks.periods.am,
     pm: theme.blocks.periods.pm,
   };

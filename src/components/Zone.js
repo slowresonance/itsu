@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { updateTime } from "../store/time/time.slice";
 import { StarIcon, BinIcon } from "../assets/Icons";
 import { removeCity, changeDefaultCity } from "../store/cities/cities.slice";
-import { preferencesSlice } from "../store/preferences/preferences.slice";
 
 import {
   formatTZTime,

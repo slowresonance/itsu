@@ -49,9 +49,9 @@ const todayBreakdown = (offset) => {
     duration = 24 - Math.abs(offset);
     if (duration <= 12) {
       if (offset < 0) {
-        pm = duration;
-      } else {
         am = duration;
+      } else {
+        pm = duration;
       }
     }
     if (duration > 12) {
