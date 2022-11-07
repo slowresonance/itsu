@@ -110,7 +110,7 @@ const StyledResult = styled.div`
 
       color: rgba(255, 255, 255, 0.7);
 
-      background-color: rgba(60, 86, 51, 1);
+      background-color: rgb(255 255 255 / 11%);
       padding: 2px 6px;
       border-radius: 3px;
     }
