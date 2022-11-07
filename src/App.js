@@ -15,6 +15,8 @@ export const GlobalStyle = createGlobalStyle`
     color: #eeeeee;
     background: #141414;
     padding: 0 1em;
+
+    overflow-x: hidden;
   }
 
   *::-webkit-scrollbar {

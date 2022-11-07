@@ -129,3 +129,11 @@ export const getGMTOffset = (timezone) => {
 export const getTime = (timezone) => {
   return dayjs().tz(timezone).format("hh:mm A");
 };
+
+export const getDaysOfTheWeek = (timezone) => {
+  return {
+    today: dayjs().tz(timezone).format("dddd"),
+    tomorrow: dayjs().tz(timezone).add(1, "day").format("dddd"),
+    yesterday: dayjs().tz(timezone).subtract(1, "day").format("dddd"),
+  };
+};

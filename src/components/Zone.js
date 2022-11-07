@@ -51,6 +51,7 @@ const StyledTracker = styled.div`
   background: rgba(255, 255, 255, 0.4);
   left: calc(var(--left) * 100%);
   box-shadow: 0px 0px 42px 10px rgb(0 0 0 / 25%);
+  z-index: 1000;
 `;
 
 const StyledStatus = styled.div`
