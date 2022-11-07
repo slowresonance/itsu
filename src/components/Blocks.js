@@ -85,7 +85,6 @@ const TooltipWrapper = ({ text }) => {
         onMouseMove={handleMouseMove}
         onMouseEnter={() => setShow(true)}
         onMouseLeave={() => setShow(false)}
-        onClick={() => setClick(!click)}
         ref={areaRef}
       ></div>
     </>
