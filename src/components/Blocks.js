@@ -15,10 +15,12 @@ const StyledPeriodBlock = styled.div`
 `;
 
 const DayBlock = ({ duration, day }) => {
+  const { themes, currentTheme } = useSelector((state) => state.preferences);
+  const theme = themes[currentTheme];
   const colors = {
-    yesterday: "#9B6C51",
-    today: "#A797C1",
-    tomorrow: "#A09238",
+    yesterday: theme.blocks.days.yesterday,
+    today: theme.blocks.days.today,
+    tomorrow: theme.blocks.days.tomorrow,
   };
   const preferences = useSelector((state) => state.preferences);
   let width = duration / 24;
@@ -35,9 +37,13 @@ const DayBlock = ({ duration, day }) => {
 };
 
 const PeriodBlock = ({ duration, period, dayDuration }) => {
+  const { themes, currentTheme } = useSelector((state) => state.preferences);
+  const theme = themes[currentTheme];
   const colors = {
-    am: "#D1C28B",
-    pm: "#76987C",
+    // am: "#D1C28B",
+    // pm: "#76987C",
+    am: theme.blocks.periods.am,
+    pm: theme.blocks.periods.pm,
   };
   const preferences = useSelector((state) => state.preferences);
   let width = duration / dayDuration;

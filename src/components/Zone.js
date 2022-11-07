@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { updateTime } from "../store/time/time.slice";
 import { StarIcon, BinIcon } from "../assets/Icons";
 import { removeCity, changeDefaultCity } from "../store/cities/cities.slice";
+import { preferencesSlice } from "../store/preferences/preferences.slice";
 
 import {
   formatTZTime,
@@ -81,18 +82,18 @@ const StyledStatus = styled.div`
         fill: #494949;
 
         &:hover {
-          fill: #f2c94c;
+          fill: var(--star);
         }
       }
 
       &.default {
         cursor: auto;
         svg {
-          fill: #f2c94c;
+          fill: var(--star);
         }
 
         &:hover {
-          fill: #f2c94c;
+          fill: var(--star);
         }
       }
       padding: 5px;
@@ -135,10 +136,16 @@ const Timeline = ({ city }) => {
 };
 
 const Status = ({ name, country, timezone, index }) => {
+  const { themes, currentTheme } = useSelector((state) => state.preferences);
+  const theme = themes[currentTheme];
   const dispatch = useDispatch();
   const { time } = useSelector((state) => state.time);
   return (
-    <StyledStatus>
+    <StyledStatus
+      style={{
+        "--star": theme.star,
+      }}
+    >
       <div className="timezone-info">
         <div className="time">{`${formatTZTime(time, timezone)} ${getAMPM(
           time,
