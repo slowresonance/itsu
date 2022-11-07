@@ -67,7 +67,7 @@ const Header = () => {
           ))}
         </div>
       ) : (
-        <div className="logo">~ jikan ~</div>
+        <div className="logo">~ itsu ~</div>
       )}
     </StyledHeader>
   );
