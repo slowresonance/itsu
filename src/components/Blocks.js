@@ -70,7 +70,6 @@ const Tooltip = ({ x, y, text }) => {
 const TooltipWrapper = ({ text }) => {
   const [coord, setCoord] = useState({ x: 0, y: 0 });
   const [show, setShow] = useState(false);
-  const [click, setClick] = useState(false);
   const areaRef = useRef(null);
 
   const handleMouseMove = (e) => {
@@ -79,7 +78,7 @@ const TooltipWrapper = ({ text }) => {
   };
   return (
     <>
-      {(show || click) && <Tooltip x={coord.x} y={coord.y} text={text} />}
+      {show && <Tooltip x={coord.x} y={coord.y} text={text} />}
       <div
         className="tooltip-area"
         onMouseMove={handleMouseMove}
