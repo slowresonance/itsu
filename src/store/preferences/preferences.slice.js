@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { getItemFromLocalStorage } from "../../utils/Local";
 
 const initialState = {
   height: 16,
@@ -63,19 +64,19 @@ const initialState = {
       star: "#f2c94c",
     },
   },
-  currentTheme: "morning",
+  currentTheme: getItemFromLocalStorage("theme") || "morning",
 };
 
 export const preferencesSlice = createSlice({
   name: "preferences",
   initialState,
   reducers: {
-    changeTheme: (state, action) => {
+    setTheme: (state, action) => {
       state.currentTheme = action.payload;
     },
   },
 });
 
-export const { changeTheme } = preferencesSlice.actions;
+export const { setTheme } = preferencesSlice.actions;
 
 export default preferencesSlice.reducer;

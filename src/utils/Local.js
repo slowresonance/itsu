@@ -1,6 +1,6 @@
 export const getItemFromLocalStorage = (key) => {
   const item = localStorage.getItem(key);
-  return item ? JSON.parse(item) : null;
+  return item ? item : null;
 };
 
 export const saveItemToLocalStorage = (key, value) => {

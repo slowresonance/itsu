@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { getItemFromLocalStorage } from "../../utils/Local";
 
-const storedState = getItemFromLocalStorage("jikan") || {
+const storedState = JSON.parse(getItemFromLocalStorage("jikan")) || {
   cities: [
     {
       name: "Tokyo",

@@ -10,6 +10,10 @@ const localStorageMiddleware = (store) => (next) => (action) => {
     const cities = store.getState().cities;
     localStorage.setItem("jikan", JSON.stringify(cities));
   }
+  if (action.type === "preferences/setTheme") {
+    const theme = store.getState().preferences.currentTheme;
+    localStorage.setItem("theme", theme);
+  }
   return result;
 };
 
