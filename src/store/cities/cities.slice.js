@@ -14,9 +14,9 @@ const storedState = JSON.parse(getItemFromLocalStorage("jikan")) || {
       timezone: "America/New_York",
     },
     {
-      name: "Hyderabad",
-      country: "IN",
-      timezone: "Asia/Kolkata",
+      name: "London",
+      country: "GB",
+      timezone: "Europe/London",
     },
   ],
 };
