@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Canvas from "./Canvas";
 import styled from "styled-components";
 import Button from "../../components/Button";
@@ -7,7 +7,7 @@ import Header from "../../components/Header";
 import Menu from "../../components/Menu";
 import { toggleSearch } from "../../store/ui/ui.slice";
 import { useDispatch, useSelector } from "react-redux";
-// import { encodeURL } from "../../utils/URL";
+import { encodeURL } from "../../utils/URL";
 
 const StyledCanvasPage = styled.div`
   display: flex;
@@ -16,7 +16,8 @@ const StyledCanvasPage = styled.div`
 
 const CanvasPage = () => {
   const { isSearchOpen } = useSelector((state) => state.ui);
-  // const { cities } = useSelector((state) => state.cities);
+  const { cities } = useSelector((state) => state.cities);
+  const [copyText, setCopyText] = useState("Copy as a link");
 
   const dispatch = useDispatch();
 
@@ -24,10 +25,14 @@ const CanvasPage = () => {
     dispatch(toggleSearch());
   };
 
-  // const handleCopyURL = () => {
-  //   const url = encodeURL(cities);
-  //   navigator.clipboard.writeText(url);
-  // };
+  const handleCopyURL = () => {
+    const url = encodeURL(cities);
+    navigator.clipboard.writeText(url);
+    setCopyText("Copied!");
+    setTimeout(() => {
+      setCopyText("Copy as a link");
+    }, 2000);
+  };
 
   return (
     <StyledCanvasPage>
@@ -38,7 +43,7 @@ const CanvasPage = () => {
           text={`${isSearchOpen ? "Close Search" : "Add a new timezone"} `}
           action={handleToggleSearch}
         ></Button>
-        {/* <Button text={"Copy as a link"} action={handleCopyURL}></Button> */}
+        <Button text={copyText} action={handleCopyURL}></Button>
       </Menu>
 
       {isSearchOpen && <Search></Search>}
