@@ -33,7 +33,6 @@
     "name": "New York",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -106,7 +105,6 @@
     "name": "Los Angeles",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -179,9 +177,6 @@
     "name": "Chicago",
     "country": "United States of America",
     "iso2": "US",
-    "exactCity": "Chicago",
-    "exactProvince": "IL",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -320,7 +315,6 @@
     "name": "Houston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -387,7 +381,6 @@
     "name": "Philadelphia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -484,7 +477,6 @@
     "name": "Dallas",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -497,7 +489,6 @@
     "name": "Miami",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -690,14 +681,12 @@
     "name": "Boston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MA",
     "timezone": "America/New_York"
   },
   {
     "name": "Detroit",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -710,7 +699,6 @@
     "name": "Atlanta",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -741,7 +729,6 @@
     "name": "Phoenix",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -910,7 +897,6 @@
     "name": "San Francisco",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -977,7 +963,6 @@
     "name": "San Diego",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -996,7 +981,6 @@
     "name": "Denver",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -1063,7 +1047,6 @@
     "name": "Seattle",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -1250,7 +1233,6 @@
     "name": "Irvine",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -1365,7 +1347,6 @@
     "name": "Pittsburgh",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -1414,7 +1395,6 @@
     "name": "Minneapolis",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -1517,7 +1497,6 @@
     "name": "Baltimore",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MD",
     "timezone": "America/New_York"
   },
   {
@@ -1644,7 +1623,6 @@
     "name": "San Antonio",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -1711,7 +1689,6 @@
     "name": "Tampa",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -1778,7 +1755,6 @@
     "name": "San Jose",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -1821,7 +1797,6 @@
     "name": "St. Louis",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
@@ -1864,7 +1839,6 @@
     "name": "Long Beach",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -1931,7 +1905,6 @@
     "name": "Portland",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -1974,7 +1947,6 @@
     "name": "Cleveland",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -2011,7 +1983,6 @@
     "name": "Las Vegas",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NV",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -2048,14 +2019,12 @@
     "name": "Indianapolis",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
     "name": "Fort Lauderdale",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -2116,7 +2085,6 @@
     "name": "Ft. Worth",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -2213,7 +2181,6 @@
     "name": "Sacramento",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -2340,9 +2307,6 @@
     "name": "Columbus",
     "country": "United States of America",
     "iso2": "US",
-    "exactCity": "Columbus",
-    "exactProvince": "OH",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -2433,7 +2397,6 @@
     "name": "Milwaukee",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -2470,14 +2433,12 @@
     "name": "San Bernardino",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Cincinnati",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -2526,7 +2487,6 @@
     "name": "Kansas City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
@@ -2545,7 +2505,6 @@
     "name": "Oakland",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -2588,7 +2547,6 @@
     "name": "Charlotte",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -2685,7 +2643,6 @@
     "name": "Austin",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -2740,7 +2697,6 @@
     "name": "Jacksonville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -2879,7 +2835,6 @@
     "name": "Virginia Beach",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -3288,7 +3243,6 @@
     "name": "Raleigh",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -3337,7 +3291,6 @@
     "name": "Orlando",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -3410,7 +3363,6 @@
     "name": "Mesa",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -3465,7 +3417,6 @@
     "name": "Memphis",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/Chicago"
   },
   {
@@ -3604,7 +3555,6 @@
     "name": "Albuquerque",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -3683,7 +3633,6 @@
     "name": "New Haven",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CT",
     "timezone": "America/New_York"
   },
   {
@@ -3720,7 +3669,6 @@
     "name": "Nashville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/Chicago"
   },
   {
@@ -3907,7 +3855,6 @@
     "name": "West Palm Beach",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -3926,21 +3873,18 @@
     "name": "Tucson",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
     "name": "Birmingham",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
     "name": "Tulsa",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -3965,7 +3909,6 @@
     "name": "Providence",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "RI",
     "timezone": "America/New_York"
   },
   {
@@ -4002,7 +3945,6 @@
     "name": "Oklahoma City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -4021,7 +3963,6 @@
     "name": "El Paso",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Denver"
   },
   {
@@ -4124,7 +4065,6 @@
     "name": "Buffalo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -4149,7 +4089,6 @@
     "name": "Norfolk",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -4162,7 +4101,6 @@
     "name": "Omaha",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Chicago"
   },
   {
@@ -4463,7 +4401,6 @@
     "name": "Louisville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/Kentucky/Louisville"
   },
   {
@@ -4596,7 +4533,6 @@
     "name": "Honolulu",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "HI",
     "timezone": "Pacific/Honolulu"
   },
   {
@@ -4609,7 +4545,6 @@
     "name": "Bridgeport",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CT",
     "timezone": "America/New_York"
   },
   {
@@ -4676,7 +4611,6 @@
     "name": "Salt Lake City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -4869,7 +4803,6 @@
     "name": "Richmond",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -4918,7 +4851,6 @@
     "name": "Arlington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -4949,7 +4881,6 @@
     "name": "Fresno",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -5064,7 +4995,6 @@
     "name": "New Orleans",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
@@ -5101,7 +5031,6 @@
     "name": "St. Petersburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -5144,7 +5073,6 @@
     "name": "Hartford",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CT",
     "timezone": "America/New_York"
   },
   {
@@ -5175,7 +5103,6 @@
     "name": "St. Paul",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -5374,7 +5301,6 @@
     "name": "Stockton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -5435,14 +5361,12 @@
     "name": "Albany",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
     "name": "Rochester",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -5647,7 +5571,6 @@
     "name": "Dayton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -5714,7 +5637,6 @@
     "name": "Tacoma",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -5793,7 +5715,6 @@
     "name": "Akron",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -5980,7 +5901,6 @@
     "name": "Stamford",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CT",
     "timezone": "America/New_York"
   },
   {
@@ -6005,7 +5925,6 @@
     "name": "Aurora",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -6036,7 +5955,6 @@
     "name": "Colorado Springs",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -6157,7 +6075,6 @@
     "name": "Knoxville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/New_York"
   },
   {
@@ -6176,7 +6093,6 @@
     "name": "Lowell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MA",
     "timezone": "America/New_York"
   },
   {
@@ -6297,7 +6213,6 @@
     "name": "Syracuse",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -6412,7 +6327,6 @@
     "name": "Oceanside",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -6533,14 +6447,12 @@
     "name": "Pasadena",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
     "name": "Toledo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -6643,7 +6555,6 @@
     "name": "Wichita",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -6752,7 +6663,6 @@
     "name": "Bakersfield",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -6831,14 +6741,12 @@
     "name": "Glendale",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
     "name": "Joliet",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -6857,14 +6765,12 @@
     "name": "Grand Rapids",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
     "name": "San Mateo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -7159,7 +7065,6 @@
     "name": "Vancouver",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -7322,7 +7227,6 @@
     "name": "Gary",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Chicago"
   },
   {
@@ -7539,7 +7443,6 @@
     "name": "Kansas City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -7558,14 +7461,12 @@
     "name": "Laredo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
     "name": "Baton Rouge",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
@@ -7596,7 +7497,6 @@
     "name": "Sarasota",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -7807,7 +7707,6 @@
     "name": "Covington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/New_York"
   },
   {
@@ -7844,7 +7743,6 @@
     "name": "Greensboro",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -8079,7 +7977,6 @@
     "name": "Allentown",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -8164,7 +8061,6 @@
     "name": "Berkeley",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -8183,7 +8079,6 @@
     "name": "Riverside",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -8316,7 +8211,6 @@
     "name": "Everett",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -8377,7 +8271,6 @@
     "name": "Harrisburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -8414,14 +8307,12 @@
     "name": "Springfield",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MA",
     "timezone": "America/New_York"
   },
   {
     "name": "Des Moines",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -8560,7 +8451,6 @@
     "name": "Newark",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NJ",
     "timezone": "America/New_York"
   },
   {
@@ -8669,7 +8559,6 @@
     "name": "Madison",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -8724,7 +8613,6 @@
     "name": "Aurora",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -8755,7 +8643,6 @@
     "name": "Spokane",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -8870,14 +8757,12 @@
     "name": "Metairie",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
     "name": "Modesto",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -8962,7 +8847,6 @@
     "name": "Reno",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NV",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -8987,7 +8871,6 @@
     "name": "Fort Wayne",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
@@ -9156,14 +9039,12 @@
     "name": "Columbia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
     "name": "Durham",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -9176,7 +9057,6 @@
     "name": "Hampton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -9237,7 +9117,6 @@
     "name": "Charleston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
@@ -9292,7 +9171,6 @@
     "name": "Anchorage",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -9371,7 +9249,6 @@
     "name": "Corpus Christi",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -9426,7 +9303,6 @@
     "name": "Miami Beach",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -9499,14 +9375,12 @@
     "name": "Lexington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/New_York"
   },
   {
     "name": "Columbia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
@@ -9537,14 +9411,12 @@
     "name": "Lincoln",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Chicago"
   },
   {
     "name": "Elgin",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -9575,7 +9447,6 @@
     "name": "McAllen",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -9630,7 +9501,6 @@
     "name": "Boise",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Boise"
   },
   {
@@ -9769,7 +9639,6 @@
     "name": "Winston-Salem",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -9926,7 +9795,6 @@
     "name": "Worcester",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MA",
     "timezone": "America/New_York"
   },
   {
@@ -9957,7 +9825,6 @@
     "name": "Provo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -10084,7 +9951,6 @@
     "name": "Ogden",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -10103,7 +9969,6 @@
     "name": "Little Rock",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
@@ -10164,14 +10029,12 @@
     "name": "Lancaster",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Trenton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NJ",
     "timezone": "America/New_York"
   },
   {
@@ -10208,7 +10071,6 @@
     "name": "Shreveport",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
@@ -10287,7 +10149,6 @@
     "name": "Mobile",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
@@ -10486,7 +10347,6 @@
     "name": "Palm Springs",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -10583,7 +10443,6 @@
     "name": "Jackson",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
@@ -10608,7 +10467,6 @@
     "name": "St. Charles",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
@@ -10639,14 +10497,12 @@
     "name": "Lubbock",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
     "name": "Evanston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -10785,7 +10641,6 @@
     "name": "Lancaster",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -10846,14 +10701,12 @@
     "name": "Chattanooga",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/New_York"
   },
   {
     "name": "Flint",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -10896,7 +10749,6 @@
     "name": "Rockford",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -10951,7 +10803,6 @@
     "name": "Greenville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
@@ -11006,7 +10857,6 @@
     "name": "Columbus",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -11187,7 +11037,6 @@
     "name": "Lansing",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -11296,7 +11145,6 @@
     "name": "Eugene",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -11309,14 +11157,12 @@
     "name": "Youngstown",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
     "name": "Montgomery",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
@@ -11371,7 +11217,6 @@
     "name": "Santa Rosa",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -11522,7 +11367,6 @@
     "name": "Ann Arbor",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -11541,7 +11385,6 @@
     "name": "Sanford",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -11566,7 +11409,6 @@
     "name": "Salem",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MA",
     "timezone": "America/New_York"
   },
   {
@@ -11609,7 +11451,6 @@
     "name": "Salem",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -11658,7 +11499,6 @@
     "name": "Tallahassee",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -11719,7 +11559,6 @@
     "name": "Coral Springs",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -11732,7 +11571,6 @@
     "name": "Huntsville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
@@ -11823,7 +11661,6 @@
     "name": "Fayetteville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -11992,7 +11829,6 @@
     "name": "Springfield",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
@@ -12059,7 +11895,6 @@
     "name": "Fort Collins",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -12072,7 +11907,6 @@
     "name": "Amarillo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -12109,7 +11943,6 @@
     "name": "Davenport",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -12350,7 +12183,6 @@
     "name": "Brownsville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -12381,7 +12213,6 @@
     "name": "Waterbury",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CT",
     "timezone": "America/New_York"
   },
   {
@@ -12520,7 +12351,6 @@
     "name": "South Bend",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
@@ -12575,7 +12405,6 @@
     "name": "Melbourne",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -12696,7 +12525,6 @@
     "name": "Canton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -12835,7 +12663,6 @@
     "name": "Barlett",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/Chicago"
   },
   {
@@ -13208,7 +13035,6 @@
     "name": "Waukesha",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -13251,7 +13077,6 @@
     "name": "Gainesville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -13336,7 +13161,6 @@
     "name": "Lakeville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -13355,7 +13179,6 @@
     "name": "Savannah",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -13530,7 +13353,6 @@
     "name": "Manchester",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NH",
     "timezone": "America/New_York"
   },
   {
@@ -13573,7 +13395,6 @@
     "name": "Augusta",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -13592,7 +13413,6 @@
     "name": "Salinas",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -13677,7 +13497,6 @@
     "name": "Paterson",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NJ",
     "timezone": "America/New_York"
   },
   {
@@ -13750,7 +13569,6 @@
     "name": "Green Bay",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -13763,7 +13581,6 @@
     "name": "Cedar Rapids",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -13848,7 +13665,6 @@
     "name": "Sioux Falls",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SD",
     "timezone": "America/Chicago"
   },
   {
@@ -14041,7 +13857,6 @@
     "name": "Pensacola",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/Chicago"
   },
   {
@@ -14084,7 +13899,6 @@
     "name": "Evansville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Chicago"
   },
   {
@@ -14097,7 +13911,6 @@
     "name": "Roanoke",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -14116,21 +13929,18 @@
     "name": "Pasadena",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Kissimmee",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
     "name": "Waukegan",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -14227,7 +14037,6 @@
     "name": "Waco",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -14258,7 +14067,6 @@
     "name": "Peoria",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -14355,7 +14163,6 @@
     "name": "Naples",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -14392,7 +14199,6 @@
     "name": "Daytona Beach",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -14513,14 +14319,12 @@
     "name": "Erie",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
     "name": "Denton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -14623,7 +14427,6 @@
     "name": "Appleton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -14708,7 +14511,6 @@
     "name": "Lafayette",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
@@ -14733,7 +14535,6 @@
     "name": "Santa Barbara",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -14872,7 +14673,6 @@
     "name": "Vallejo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -14897,7 +14697,6 @@
     "name": "Fort Pierce",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -15084,7 +14883,6 @@
     "name": "Independence",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
@@ -15199,14 +14997,12 @@
     "name": "York",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
     "name": "Kalamazoo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -15327,7 +15123,6 @@
     "name": "Fargo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ND",
     "timezone": "America/Chicago"
   },
   {
@@ -15358,7 +15153,6 @@
     "name": "Alexandria",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -15377,7 +15171,6 @@
     "name": "Wilmington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -15390,7 +15183,6 @@
     "name": "Topeka",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -15499,7 +15291,6 @@
     "name": "Springfield",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -15758,7 +15549,6 @@
     "name": "Clarksville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/Chicago"
   },
   {
@@ -15849,7 +15639,6 @@
     "name": "Ft. Myers",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -15868,7 +15657,6 @@
     "name": "Killeen",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -16001,7 +15789,6 @@
     "name": "Niagara Falls",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -16014,7 +15801,6 @@
     "name": "Cape Coral",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -16051,7 +15837,6 @@
     "name": "Wilmington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "DE",
     "timezone": "America/New_York"
   },
   {
@@ -16136,7 +15921,6 @@
     "name": "New Bedford",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MA",
     "timezone": "America/New_York"
   },
   {
@@ -16161,14 +15945,12 @@
     "name": "Scranton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
     "name": "Visalia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -16187,7 +15969,6 @@
     "name": "Edinburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -16260,7 +16041,6 @@
     "name": "Norman",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -16651,7 +16431,6 @@
     "name": "Fayetteville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
@@ -16664,7 +16443,6 @@
     "name": "Pueblo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -16689,7 +16467,6 @@
     "name": "Bryan",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -16720,7 +16497,6 @@
     "name": "Abilene",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -16763,7 +16539,6 @@
     "name": "Beaumont",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -16824,7 +16599,6 @@
     "name": "Boulder",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -16891,7 +16665,6 @@
     "name": "Greeley",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -16910,7 +16683,6 @@
     "name": "Asheville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -16947,7 +16719,6 @@
     "name": "Racine",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -16978,7 +16749,6 @@
     "name": "Macon",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -16997,7 +16767,6 @@
     "name": "Schenectady",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -17046,7 +16815,6 @@
     "name": "National City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -17239,7 +17007,6 @@
     "name": "Rochester",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -17270,7 +17037,6 @@
     "name": "Billings",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -17289,7 +17055,6 @@
     "name": "Rock Island",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -17338,14 +17103,12 @@
     "name": "Tyler",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
     "name": "Santa Cruz",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -17382,7 +17145,6 @@
     "name": "Olympia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -17407,14 +17169,12 @@
     "name": "Poughkeepsie",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
     "name": "Tuscaloosa",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
@@ -17427,7 +17187,6 @@
     "name": "Elkhart",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
@@ -17440,7 +17199,6 @@
     "name": "Murfreesboro",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/Chicago"
   },
   {
@@ -17489,14 +17247,12 @@
     "name": "Bloomington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
     "name": "Wilkes Barre",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -17533,7 +17289,6 @@
     "name": "Portland",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ME",
     "timezone": "America/New_York"
   },
   {
@@ -17582,14 +17337,12 @@
     "name": "Coral Gables",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
     "name": "Odessa",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -17614,21 +17367,18 @@
     "name": "Midland",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
     "name": "Lafayette",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
     "name": "Santa Maria",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -17695,7 +17445,6 @@
     "name": "Las Cruces",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -17732,7 +17481,6 @@
     "name": "Wichita Falls",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -17931,7 +17679,6 @@
     "name": "Ocala",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -17950,7 +17697,6 @@
     "name": "Wahiawa",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "HI",
     "timezone": "Pacific/Honolulu"
   },
   {
@@ -18089,14 +17835,12 @@
     "name": "Redding",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Yakima",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -18199,7 +17943,6 @@
     "name": "Binghamton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -18242,7 +17985,6 @@
     "name": "Belleville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -18291,7 +18033,6 @@
     "name": "Spring Hill",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -18334,7 +18075,6 @@
     "name": "Urbana",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -18539,7 +18279,6 @@
     "name": "Saginaw",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -18594,7 +18333,6 @@
     "name": "Medford",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -18661,7 +18399,6 @@
     "name": "Yuma",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -18686,14 +18423,12 @@
     "name": "Lawrence",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
     "name": "Fort Smith",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
@@ -18820,7 +18555,6 @@
     "name": "San Angelo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -18839,14 +18573,12 @@
     "name": "Charleston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WV",
     "timezone": "America/New_York"
   },
   {
     "name": "Sioux City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -18877,7 +18609,6 @@
     "name": "Harlingen",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -18926,7 +18657,6 @@
     "name": "Bellingham",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -18987,7 +18717,6 @@
     "name": "St. Cloud",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -19000,7 +18729,6 @@
     "name": "Lawton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -19013,7 +18741,6 @@
     "name": "Bloomington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
@@ -19218,7 +18945,6 @@
     "name": "Lynchburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -19231,14 +18957,12 @@
     "name": "Merced",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Yuba City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -19329,14 +19053,12 @@
     "name": "Victorville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Caldwell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Boise"
   },
   {
@@ -19385,7 +19107,6 @@
     "name": "Chico",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -19554,14 +19275,12 @@
     "name": "Kennewick",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Albany",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -19598,21 +19317,18 @@
     "name": "Waterloo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
     "name": "Bremerton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Duluth",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -19631,7 +19347,6 @@
     "name": "Utica",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -19668,7 +19383,6 @@
     "name": "Greenville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -19681,7 +19395,6 @@
     "name": "Iowa City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -19712,14 +19425,12 @@
     "name": "Spartanburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
     "name": "Santa Fe",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -19774,7 +19485,6 @@
     "name": "Council Bluffs",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -19793,14 +19503,12 @@
     "name": "St. George",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
     "name": "Southaven",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
@@ -19951,7 +19659,6 @@
     "name": "New Albany",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Kentucky/Louisville"
   },
   {
@@ -19988,7 +19695,6 @@
     "name": "Athens",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -20037,7 +19743,6 @@
     "name": "Monterey",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -20080,7 +19785,6 @@
     "name": "Rock Hill",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
@@ -20093,7 +19797,6 @@
     "name": "Lake Charles",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
@@ -20136,7 +19839,6 @@
     "name": "Fredericksburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -20173,21 +19875,18 @@
     "name": "Baytown",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
     "name": "Monroe",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
     "name": "Gulfport",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
@@ -20260,7 +19959,6 @@
     "name": "Petersburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -20309,7 +20007,6 @@
     "name": "Longview",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -20334,7 +20031,6 @@
     "name": "Muncie",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
@@ -20359,7 +20055,6 @@
     "name": "Grand Junction",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -20384,7 +20079,6 @@
     "name": "Decatur",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -20397,14 +20091,12 @@
     "name": "St. Joseph",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
     "name": "Columbia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/Chicago"
   },
   {
@@ -20453,7 +20145,6 @@
     "name": "Springfield",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -20646,7 +20337,6 @@
     "name": "Jacksonville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -20761,7 +20451,6 @@
     "name": "Eau Claire",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -20834,7 +20523,6 @@
     "name": "Muskegon",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -20847,7 +20535,6 @@
     "name": "Bend",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -21010,7 +20697,6 @@
     "name": "La Crosse",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -21131,7 +20817,6 @@
     "name": "Panama City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/Chicago"
   },
   {
@@ -21234,7 +20919,6 @@
     "name": "Winter Haven",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -21289,21 +20973,18 @@
     "name": "Johnson City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/New_York"
   },
   {
     "name": "Missoula",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
     "name": "Pontiac",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -21322,7 +21003,6 @@
     "name": "Oshkosh",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -21341,7 +21021,6 @@
     "name": "Rapid City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SD",
     "timezone": "America/Denver"
   },
   {
@@ -21426,7 +21105,6 @@
     "name": "Huntington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WV",
     "timezone": "America/New_York"
   },
   {
@@ -21529,7 +21207,6 @@
     "name": "Burlington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VT",
     "timezone": "America/New_York"
   },
   {
@@ -21584,7 +21261,6 @@
     "name": "Idaho Falls",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Boise"
   },
   {
@@ -21627,7 +21303,6 @@
     "name": "Janesville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -21676,7 +21351,6 @@
     "name": "Terre Haute",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
@@ -21725,14 +21399,12 @@
     "name": "Hickory",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
     "name": "State College",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -21745,7 +21417,6 @@
     "name": "Beaver Falls",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -21842,7 +21513,6 @@
     "name": "Cheyenne",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -21879,7 +21549,6 @@
     "name": "Mansfield",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -22018,7 +21687,6 @@
     "name": "Victoria",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -22049,7 +21717,6 @@
     "name": "Altoona",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -22062,7 +21729,6 @@
     "name": "Jackson",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/Chicago"
   },
   {
@@ -22087,7 +21753,6 @@
     "name": "Galveston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -22100,7 +21765,6 @@
     "name": "Battle Creek",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -22179,7 +21843,6 @@
     "name": "Auburn",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
@@ -22222,7 +21885,6 @@
     "name": "Dothan",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
@@ -22271,14 +21933,12 @@
     "name": "Marietta",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
     "name": "Bowling Green",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/Chicago"
   },
   {
@@ -22291,14 +21951,12 @@
     "name": "Great Falls",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
     "name": "Charlottesville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -22311,7 +21969,6 @@
     "name": "New London",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CT",
     "timezone": "America/New_York"
   },
   {
@@ -22342,7 +21999,6 @@
     "name": "Owensboro",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/Chicago"
   },
   {
@@ -22409,7 +22065,6 @@
     "name": "Alexandria",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
@@ -22434,7 +22089,6 @@
     "name": "Flagstaff",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -22459,7 +22113,6 @@
     "name": "Homestead",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -22526,14 +22179,12 @@
     "name": "Joplin",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
     "name": "Bismarck",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ND",
     "timezone": "America/Chicago"
   },
   {
@@ -22594,7 +22245,6 @@
     "name": "Dubuque",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -22763,7 +22413,6 @@
     "name": "Annapolis",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MD",
     "timezone": "America/New_York"
   },
   {
@@ -22776,7 +22425,6 @@
     "name": "Logan",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -22789,14 +22437,12 @@
     "name": "Atlantic City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NJ",
     "timezone": "America/New_York"
   },
   {
     "name": "San Marcos",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -22809,14 +22455,12 @@
     "name": "Hagerstown",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MD",
     "timezone": "America/New_York"
   },
   {
     "name": "Temple",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -22835,7 +22479,6 @@
     "name": "Jonesboro",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
@@ -22968,7 +22611,6 @@
     "name": "Alton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -22987,7 +22629,6 @@
     "name": "Pocatello",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Boise"
   },
   {
@@ -23024,7 +22665,6 @@
     "name": "Rocky Mount",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -23079,7 +22719,6 @@
     "name": "Ames",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -23092,7 +22731,6 @@
     "name": "Port Charlotte",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -23123,7 +22761,6 @@
     "name": "Conway",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
@@ -23232,14 +22869,12 @@
     "name": "Casper",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
     "name": "Wausau",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -23258,7 +22893,6 @@
     "name": "Slidell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
@@ -23319,7 +22953,6 @@
     "name": "Texas City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -23356,14 +22989,12 @@
     "name": "Springfield",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Lake Havasu City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -23430,7 +23061,6 @@
     "name": "Port Arthur",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -23461,7 +23091,6 @@
     "name": "Corvallis",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -23480,7 +23109,6 @@
     "name": "San Luis Obispo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -23511,7 +23139,6 @@
     "name": "Dover",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "DE",
     "timezone": "America/New_York"
   },
   {
@@ -23590,7 +23217,6 @@
     "name": "Lima",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -23627,7 +23253,6 @@
     "name": "Blacksburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -23640,7 +23265,6 @@
     "name": "Carson City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NV",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -23665,7 +23289,6 @@
     "name": "Kokomo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
@@ -23696,14 +23319,12 @@
     "name": "Hattiesburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
     "name": "Grand Forks",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ND",
     "timezone": "America/Chicago"
   },
   {
@@ -23722,7 +23343,6 @@
     "name": "Valdosta",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -23825,7 +23445,6 @@
     "name": "Tulare",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -23868,7 +23487,6 @@
     "name": "St. Charles",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MD",
     "timezone": "America/New_York"
   },
   {
@@ -23965,7 +23583,6 @@
     "name": "Oak Park",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -23984,7 +23601,6 @@
     "name": "Texarkana",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
@@ -24087,7 +23703,6 @@
     "name": "Vero Beach",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -24124,7 +23739,6 @@
     "name": "Bay City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -24149,7 +23763,6 @@
     "name": "Pine Bluff",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
@@ -24180,14 +23793,12 @@
     "name": "Longview",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Manhattan",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -24200,7 +23811,6 @@
     "name": "Sheboygan",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -24273,7 +23883,6 @@
     "name": "Kingsport",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/New_York"
   },
   {
@@ -24370,7 +23979,6 @@
     "name": "Sault Ste. Marie",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -24713,7 +24321,6 @@
     "name": "Houma",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
@@ -24732,7 +24339,6 @@
     "name": "Kankakee",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -24751,14 +24357,12 @@
     "name": "Fond du Lac",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
     "name": "Albany",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -24825,7 +24429,6 @@
     "name": "Hilo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "HI",
     "timezone": "Pacific/Honolulu"
   },
   {
@@ -24868,7 +24471,6 @@
     "name": "Prescott",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -24887,14 +24489,12 @@
     "name": "Titusville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
     "name": "Montana",
     "country": "Bulgaria",
     "iso2": "BG",
-    "state_ansi": "MT",
     "timezone": "Europe/Sofia"
   },
   {
@@ -25069,7 +24669,6 @@
     "name": "Salina",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -25112,7 +24711,6 @@
     "name": "Parkersburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WV",
     "timezone": "America/New_York"
   },
   {
@@ -25137,7 +24735,6 @@
     "name": "Lewiston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ME",
     "timezone": "America/New_York"
   },
   {
@@ -25246,7 +24843,6 @@
     "name": "Elmira",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -25325,7 +24921,6 @@
     "name": "Enid",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -25356,7 +24951,6 @@
     "name": "Wenatchee",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -25381,7 +24975,6 @@
     "name": "Johnstown",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
@@ -25394,7 +24987,6 @@
     "name": "Mankato",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -25461,14 +25053,12 @@
     "name": "Ithaca",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
     "name": "Jefferson City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
@@ -25511,7 +25101,6 @@
     "name": "New Braunfels",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -25536,21 +25125,18 @@
     "name": "Stillwater",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
     "name": "Grand Island",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Chicago"
   },
   {
     "name": "Pittsfield",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MA",
     "timezone": "America/New_York"
   },
   {
@@ -25587,21 +25173,18 @@
     "name": "Roswell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
     "name": "Dalton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
     "name": "Palm Coast",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -25794,7 +25377,6 @@
     "name": "St. Augustine",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -25867,35 +25449,30 @@
     "name": "Florence",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
     "name": "Morgantown",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WV",
     "timezone": "America/New_York"
   },
   {
     "name": "Biloxi",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
     "name": "Williamsport",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "PA",
     "timezone": "America/New_York"
   },
   {
     "name": "Freeport",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -25914,7 +25491,6 @@
     "name": "Fairbanks",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -25951,14 +25527,12 @@
     "name": "Anderson",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
     "name": "Quincy",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -26013,7 +25587,6 @@
     "name": "Danville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -26056,7 +25629,6 @@
     "name": "Twin Falls",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Boise"
   },
   {
@@ -26069,14 +25641,12 @@
     "name": "Goldsboro",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
     "name": "Farmington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -26137,7 +25707,6 @@
     "name": "Concord",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NH",
     "timezone": "America/New_York"
   },
   {
@@ -26162,7 +25731,6 @@
     "name": "Hutchinson",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -26181,7 +25749,6 @@
     "name": "Delano",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -26218,7 +25785,6 @@
     "name": "Lancaster",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -26291,7 +25857,6 @@
     "name": "Harrisonburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -26346,7 +25911,6 @@
     "name": "Saratoga Springs",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -26377,14 +25941,12 @@
     "name": "El Centro",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
     "name": "Conroe",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -26523,7 +26085,6 @@
     "name": "Richmond",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
@@ -26536,7 +26097,6 @@
     "name": "Wheeling",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WV",
     "timezone": "America/New_York"
   },
   {
@@ -26555,28 +26115,24 @@
     "name": "Meridian",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
     "name": "Bangor",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ME",
     "timezone": "America/New_York"
   },
   {
     "name": "Hot Springs",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
     "name": "Florence",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
@@ -26757,7 +26313,6 @@
     "name": "Lewiston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -26812,7 +26367,6 @@
     "name": "Richland",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -26855,7 +26409,6 @@
     "name": "Eagle Pass",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -26916,7 +26469,6 @@
     "name": "Winchester",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -26941,7 +26493,6 @@
     "name": "Gadsden",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
@@ -26978,7 +26529,6 @@
     "name": "Bozeman",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -26997,7 +26547,6 @@
     "name": "Muskogee",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -27040,7 +26589,6 @@
     "name": "Sherman",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -27089,7 +26637,6 @@
     "name": "Lufkin",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -27114,7 +26661,6 @@
     "name": "Casa Grande",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -27157,7 +26703,6 @@
     "name": "Cape Girardeau",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -27206,7 +26751,6 @@
     "name": "Bullhead City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -27225,7 +26769,6 @@
     "name": "Jamestown",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -27244,7 +26787,6 @@
     "name": "Walla Walla",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -27353,7 +26895,6 @@
     "name": "Myrtle Beach",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
@@ -27384,7 +26925,6 @@
     "name": "Minot",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ND",
     "timezone": "America/Chicago"
   },
   {
@@ -27469,7 +27009,6 @@
     "name": "Aiken",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
@@ -27482,7 +27021,6 @@
     "name": "Grants Pass",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -27501,7 +27039,6 @@
     "name": "Greenville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
@@ -27676,7 +27213,6 @@
     "name": "Newport",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "RI",
     "timezone": "America/New_York"
   },
   {
@@ -27695,7 +27231,6 @@
     "name": "Del Rio",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -27912,7 +27447,6 @@
     "name": "New Iberia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "LA",
     "timezone": "America/Chicago"
   },
   {
@@ -28003,7 +27537,6 @@
     "name": "Benton Harbor",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -28028,7 +27561,6 @@
     "name": "Coeur d'Alene",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -28041,7 +27573,6 @@
     "name": "Huntsville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -28072,7 +27603,6 @@
     "name": "Moorhead",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -28085,7 +27615,6 @@
     "name": "Marion",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IN",
     "timezone": "America/Indiana/Indianapolis"
   },
   {
@@ -28128,7 +27657,6 @@
     "name": "Eureka",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -28159,7 +27687,6 @@
     "name": "Leesburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -28172,7 +27699,6 @@
     "name": "Tupelo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
@@ -28185,7 +27711,6 @@
     "name": "Salisbury",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -28246,7 +27771,6 @@
     "name": "Paducah",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/Chicago"
   },
   {
@@ -28265,7 +27789,6 @@
     "name": "Alamogordo",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -28320,7 +27843,6 @@
     "name": "Clovis",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -28375,7 +27897,6 @@
     "name": "Kingman",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -28418,7 +27939,6 @@
     "name": "Bowling Green",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -28449,7 +27969,6 @@
     "name": "Helena",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -28528,7 +28047,6 @@
     "name": "Wailuku",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "HI",
     "timezone": "Pacific/Honolulu"
   },
   {
@@ -28583,7 +28101,6 @@
     "name": "Christiansted",
     "country": "United States Virgin Islands",
     "iso2": "VI",
-    "state_ansi": "VI",
     "timezone": "America/St_Thomas"
   },
   {
@@ -28596,7 +28113,6 @@
     "name": "Zanesville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OH",
     "timezone": "America/New_York"
   },
   {
@@ -28657,7 +28173,6 @@
     "name": "Cleburne",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -28670,14 +28185,12 @@
     "name": "Florida",
     "country": "Uruguay",
     "iso2": "UY",
-    "state_ansi": "FL",
     "timezone": "America/Montevideo"
   },
   {
     "name": "Frankfort",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/New_York"
   },
   {
@@ -28720,7 +28233,6 @@
     "name": "Galesburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -28769,7 +28281,6 @@
     "name": "West Bend",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -28812,7 +28323,6 @@
     "name": "Brunswick",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -28843,7 +28353,6 @@
     "name": "Hopkinsville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/Chicago"
   },
   {
@@ -28892,7 +28401,6 @@
     "name": "Butte",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -28935,7 +28443,6 @@
     "name": "Bristol",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VA",
     "timezone": "America/New_York"
   },
   {
@@ -29002,7 +28509,6 @@
     "name": "Klamath Falls",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -29045,7 +28551,6 @@
     "name": "Watertown",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
@@ -29118,7 +28623,6 @@
     "name": "Nacogdoches",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -29167,7 +28671,6 @@
     "name": "Oak Ridge",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TN",
     "timezone": "America/New_York"
   },
   {
@@ -29270,7 +28773,6 @@
     "name": "Kearney",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Chicago"
   },
   {
@@ -29373,7 +28875,6 @@
     "name": "Winona",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -29506,7 +29007,6 @@
     "name": "Shawnee",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -29567,7 +29067,6 @@
     "name": "La Grange",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -29586,7 +29085,6 @@
     "name": "Traverse City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -29659,7 +29157,6 @@
     "name": "Carbondale",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IL",
     "timezone": "America/Chicago"
   },
   {
@@ -29684,7 +29181,6 @@
     "name": "Hobbs",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -29853,7 +29349,6 @@
     "name": "Emporia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -29884,7 +29379,6 @@
     "name": "Burlington",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -29933,7 +29427,6 @@
     "name": "Garden City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -29952,7 +29445,6 @@
     "name": "Superior",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -29977,7 +29469,6 @@
     "name": "Beckley",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WV",
     "timezone": "America/New_York"
   },
   {
@@ -29996,7 +29487,6 @@
     "name": "Mason City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -30105,7 +29595,6 @@
     "name": "Lumberton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -30118,14 +29607,12 @@
     "name": "Sumter",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
     "name": "Key West",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -30354,7 +29841,6 @@
     "name": "Ft. Dodge",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -30379,7 +29865,6 @@
     "name": "Paso Robles",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -30404,7 +29889,6 @@
     "name": "Juneau",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Juneau"
   },
   {
@@ -30447,7 +29931,6 @@
     "name": "Gillette",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -30592,7 +30075,6 @@
     "name": "Laramie",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -30629,7 +30111,6 @@
     "name": "Roseburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -30684,7 +30165,6 @@
     "name": "Cedar City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -30697,7 +30177,6 @@
     "name": "Ottumwa",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -30716,21 +30195,18 @@
     "name": "Harper",
     "country": "Liberia",
     "iso2": "LR",
-    "state_ansi": "MD",
     "timezone": "Africa/Monrovia"
   },
   {
     "name": "Carlsbad",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
     "name": "Dodge City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -30803,7 +30279,6 @@
     "name": "Kalispell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -30840,7 +30315,6 @@
     "name": "Bartlesville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -30859,14 +30333,12 @@
     "name": "Aberdeen",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SD",
     "timezone": "America/Chicago"
   },
   {
     "name": "Ponca City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -30891,7 +30363,6 @@
     "name": "North Platte",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Chicago"
   },
   {
@@ -30910,7 +30381,6 @@
     "name": "Vicksburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
@@ -30965,7 +30435,6 @@
     "name": "Norfolk",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Chicago"
   },
   {
@@ -30978,7 +30447,6 @@
     "name": "Kingsville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -31009,7 +30477,6 @@
     "name": "Ardmore",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -31028,7 +30495,6 @@
     "name": "Aberdeen",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -31089,14 +30555,12 @@
     "name": "Plattsburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NY",
     "timezone": "America/New_York"
   },
   {
     "name": "Orangeburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
@@ -31175,7 +30639,6 @@
     "name": "Faribault",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -31188,7 +30651,6 @@
     "name": "Big Spring",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -31261,7 +30723,6 @@
     "name": "Marquette",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -31280,7 +30741,6 @@
     "name": "Coos Bay",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -31317,7 +30777,6 @@
     "name": "Douglas",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -31336,7 +30795,6 @@
     "name": "Enterprise",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
@@ -31349,7 +30807,6 @@
     "name": "Laurel",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
@@ -31512,7 +30969,6 @@
     "name": "Paragould",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
@@ -31621,7 +31077,6 @@
     "name": "Clarksburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WV",
     "timezone": "America/New_York"
   },
   {
@@ -31778,7 +31233,6 @@
     "name": "Beaufort",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SC",
     "timezone": "America/New_York"
   },
   {
@@ -31809,7 +31263,6 @@
     "name": "Ukiah",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -31924,7 +31377,6 @@
     "name": "Gallup",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -31967,7 +31419,6 @@
     "name": "El Dorado",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AR",
     "timezone": "America/Chicago"
   },
   {
@@ -31998,7 +31449,6 @@
     "name": "Augusta",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ME",
     "timezone": "America/New_York"
   },
   {
@@ -32029,7 +31479,6 @@
     "name": "Brainerd",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -32048,14 +31497,12 @@
     "name": "Alice",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
     "name": "Barstow",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -32170,7 +31617,6 @@
     "name": "Madisonville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/Chicago"
   },
   {
@@ -32189,14 +31635,12 @@
     "name": "Nogales",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
     "name": "Cumberland",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MD",
     "timezone": "America/New_York"
   },
   {
@@ -32239,7 +31683,6 @@
     "name": "Hays",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -32294,7 +31737,6 @@
     "name": "Waterville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ME",
     "timezone": "America/New_York"
   },
   {
@@ -32313,7 +31755,6 @@
     "name": "Natchez",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MS",
     "timezone": "America/Chicago"
   },
   {
@@ -32356,7 +31797,6 @@
     "name": "Brookings",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SD",
     "timezone": "America/Chicago"
   },
   {
@@ -32375,7 +31815,6 @@
     "name": "Brownwood",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -32394,14 +31833,12 @@
     "name": "Scottsbluff",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Denver"
   },
   {
     "name": "Lake City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -32534,7 +31971,6 @@
     "name": "McAlester",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -32667,14 +32103,12 @@
     "name": "Selma",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AL",
     "timezone": "America/Chicago"
   },
   {
     "name": "Crestview",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/Chicago"
   },
   {
@@ -32759,7 +32193,6 @@
     "name": "Dublin",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -32808,7 +32241,6 @@
     "name": "Marinette",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -32833,7 +32265,6 @@
     "name": "Durango",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -32852,7 +32283,6 @@
     "name": "Albert Lea",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -32865,7 +32295,6 @@
     "name": "Arcata",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -33058,7 +32487,6 @@
     "name": "Poplar Bluff",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
@@ -33083,7 +32511,6 @@
     "name": "Montrose",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -33108,7 +32535,6 @@
     "name": "Willmar",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -33193,7 +32619,6 @@
     "name": "Kirksville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MO",
     "timezone": "America/Chicago"
   },
   {
@@ -33410,7 +32835,6 @@
     "name": "Elko",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NV",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -33429,7 +32853,6 @@
     "name": "Bay City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -33448,7 +32871,6 @@
     "name": "Waycross",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -33653,7 +33075,6 @@
     "name": "Centralia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -33756,7 +33177,6 @@
     "name": "Pendleton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -33943,7 +33363,6 @@
     "name": "Palatka",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -33974,7 +33393,6 @@
     "name": "Dickinson",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ND",
     "timezone": "America/Denver"
   },
   {
@@ -34155,14 +33573,12 @@
     "name": "Deming",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
     "name": "Las Vegas",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -34229,7 +33645,6 @@
     "name": "Scottsdale",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -34344,7 +33759,6 @@
     "name": "Boulder City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NV",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -34363,7 +33777,6 @@
     "name": "Hereford",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -34418,21 +33831,18 @@
     "name": "Mitchell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SD",
     "timezone": "America/Chicago"
   },
   {
     "name": "Escanaba",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
     "name": "Jamestown",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ND",
     "timezone": "America/Chicago"
   },
   {
@@ -34541,7 +33951,6 @@
     "name": "Alpena",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -34566,7 +33975,6 @@
     "name": "Yankton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SD",
     "timezone": "America/Chicago"
   },
   {
@@ -34759,7 +34167,6 @@
     "name": "Bemidji",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -34874,7 +34281,6 @@
     "name": "Pierre",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SD",
     "timezone": "America/Chicago"
   },
   {
@@ -34887,7 +34293,6 @@
     "name": "La Grande",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -34936,7 +34341,6 @@
     "name": "Dumas",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -35207,7 +34611,6 @@
     "name": "Williston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ND",
     "timezone": "America/Chicago"
   },
   {
@@ -35358,7 +34761,6 @@
     "name": "Woodward",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -35407,7 +34809,6 @@
     "name": "Cadillac",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -35432,7 +34833,6 @@
     "name": "Douglas",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "GA",
     "timezone": "America/New_York"
   },
   {
@@ -35475,14 +34875,12 @@
     "name": "Iron Mountain",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Menominee"
   },
   {
     "name": "Los Alamos",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -35609,7 +35007,6 @@
     "name": "Beeville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -35622,7 +35019,6 @@
     "name": "Burley",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Boise"
   },
   {
@@ -35671,14 +35067,12 @@
     "name": "Ontario",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Boise"
   },
   {
     "name": "Vernon",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -35877,7 +35271,6 @@
     "name": "Glenwood Springs",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -35926,7 +35319,6 @@
     "name": "Vernal",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -35981,7 +35373,6 @@
     "name": "Coffeyville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Chicago"
   },
   {
@@ -35994,7 +35385,6 @@
     "name": "Spencer",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "IA",
     "timezone": "America/Chicago"
   },
   {
@@ -36013,7 +35403,6 @@
     "name": "Guymon",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OK",
     "timezone": "America/Chicago"
   },
   {
@@ -36026,7 +35415,6 @@
     "name": "International Falls",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -36039,7 +35427,6 @@
     "name": "Tomah",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -36076,7 +35463,6 @@
     "name": "Port Lavaca",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -36089,7 +35475,6 @@
     "name": "Lihue",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "HI",
     "timezone": "Pacific/Honolulu"
   },
   {
@@ -36252,7 +35637,6 @@
     "name": "Riverton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -36295,7 +35679,6 @@
     "name": "Hancock",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -36308,7 +35691,6 @@
     "name": "Havre",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -36321,7 +35703,6 @@
     "name": "Green River",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -36502,7 +35883,6 @@
     "name": "Winslow",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Denver"
   },
   {
@@ -36527,7 +35907,6 @@
     "name": "Kailua-Kona",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "HI",
     "timezone": "Pacific/Honolulu"
   },
   {
@@ -36546,7 +35925,6 @@
     "name": "Palmer",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -36571,7 +35949,6 @@
     "name": "Astoria",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -36584,7 +35961,6 @@
     "name": "Safford",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -36663,7 +36039,6 @@
     "name": "Rhinelander",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WI",
     "timezone": "America/Chicago"
   },
   {
@@ -36736,14 +36111,12 @@
     "name": "Presque Isle",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ME",
     "timezone": "America/New_York"
   },
   {
     "name": "Crescent City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -36756,7 +36129,6 @@
     "name": "Petoskey",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Detroit"
   },
   {
@@ -36805,7 +36177,6 @@
     "name": "Craig",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -36854,7 +36225,6 @@
     "name": "Price",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -36951,7 +36321,6 @@
     "name": "Cody",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -37096,7 +36465,6 @@
     "name": "Virginia",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -37109,7 +36477,6 @@
     "name": "Trinidad",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -37170,7 +36537,6 @@
     "name": "Lamar",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -37201,7 +36567,6 @@
     "name": "Wasilla",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -37238,7 +36603,6 @@
     "name": "Rawlins",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -37269,7 +36633,6 @@
     "name": "Miles City",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -37312,7 +36675,6 @@
     "name": "Alliance",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Denver"
   },
   {
@@ -37331,7 +36693,6 @@
     "name": "Crookston",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -37356,7 +36717,6 @@
     "name": "Montpelier",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "VT",
     "timezone": "America/New_York"
   },
   {
@@ -37411,7 +36771,6 @@
     "name": "Ketchikan",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Sitka"
   },
   {
@@ -37424,7 +36783,6 @@
     "name": "Socorro",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -37437,7 +36795,6 @@
     "name": "Sitka",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Sitka"
   },
   {
@@ -37486,7 +36843,6 @@
     "name": "McCook",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Chicago"
   },
   {
@@ -37499,7 +36855,6 @@
     "name": "Winnemucca",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NV",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -37512,7 +36867,6 @@
     "name": "Pecos",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -37591,7 +36945,6 @@
     "name": "London",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KY",
     "timezone": "America/New_York"
   },
   {
@@ -37604,7 +36957,6 @@
     "name": "Kodiak",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -37785,7 +37137,6 @@
     "name": "Fort Stockton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -37882,14 +37233,12 @@
     "name": "Devils Lake",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ND",
     "timezone": "America/Chicago"
   },
   {
     "name": "Richfield",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -38106,7 +37455,6 @@
     "name": "Raton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -38155,7 +37503,6 @@
     "name": "Dalhart",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -38168,7 +37515,6 @@
     "name": "Lander",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -38253,7 +37599,6 @@
     "name": "Kenai",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -38314,7 +37659,6 @@
     "name": "Truth or Consequences",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -38345,7 +37689,6 @@
     "name": "Alpine",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -38364,7 +37707,6 @@
     "name": "Ironwood",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MI",
     "timezone": "America/Menominee"
   },
   {
@@ -38407,7 +37749,6 @@
     "name": "Tillamook",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -38468,7 +37809,6 @@
     "name": "Gunnison",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CO",
     "timezone": "America/Denver"
   },
   {
@@ -38481,7 +37821,6 @@
     "name": "Needles",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -38494,7 +37833,6 @@
     "name": "Sidney",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Denver"
   },
   {
@@ -38597,14 +37935,12 @@
     "name": "Powell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
     "name": "Houlton",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ME",
     "timezone": "America/New_York"
   },
   {
@@ -38731,7 +38067,6 @@
     "name": "Douglas",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -38810,7 +38145,6 @@
     "name": "Chadron",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NE",
     "timezone": "America/Denver"
   },
   {
@@ -38823,7 +38157,6 @@
     "name": "Childress",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -38944,7 +38277,6 @@
     "name": "Bethel",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -39017,7 +38349,6 @@
     "name": "Moab",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -39054,7 +38385,6 @@
     "name": "Glendive",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -39073,7 +38403,6 @@
     "name": "Tucumcari",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NM",
     "timezone": "America/Denver"
   },
   {
@@ -39164,7 +38493,6 @@
     "name": "Falfurrias",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -39225,7 +38553,6 @@
     "name": "Polson",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -39250,7 +38577,6 @@
     "name": "Homer",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -39299,7 +38625,6 @@
     "name": "Nephi",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -39540,7 +38865,6 @@
     "name": "Bar Harbor",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ME",
     "timezone": "America/New_York"
   },
   {
@@ -39571,7 +38895,6 @@
     "name": "Willcox",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -39686,7 +39009,6 @@
     "name": "Goodland",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "KS",
     "timezone": "America/Denver"
   },
   {
@@ -39705,7 +39027,6 @@
     "name": "Bishop",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -39730,7 +39051,6 @@
     "name": "Dillon",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -39845,7 +39165,6 @@
     "name": "Hardin",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -39906,7 +39225,6 @@
     "name": "Ely",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NV",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -39973,7 +39291,6 @@
     "name": "Mt. Shasta",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -40022,7 +39339,6 @@
     "name": "Ely",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MN",
     "timezone": "America/Chicago"
   },
   {
@@ -40161,7 +39477,6 @@
     "name": "Barrow",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -40234,14 +39549,12 @@
     "name": "Salmon",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Boise"
   },
   {
     "name": "Valdez",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -40320,7 +39633,6 @@
     "name": "Thermopolis",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WY",
     "timezone": "America/Denver"
   },
   {
@@ -40333,7 +39645,6 @@
     "name": "Glasgow",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "MT",
     "timezone": "America/Denver"
   },
   {
@@ -40358,7 +39669,6 @@
     "name": "Mobridge",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SD",
     "timezone": "America/Chicago"
   },
   {
@@ -40401,7 +39711,6 @@
     "name": "Nome",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -40474,7 +39783,6 @@
     "name": "Seward",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -40505,14 +39813,12 @@
     "name": "Kotzebue",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
     "name": "Kanab",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -40561,7 +39867,6 @@
     "name": "Montpelier",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Boise"
   },
   {
@@ -40712,7 +40017,6 @@
     "name": "Parowan",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -40893,7 +40197,6 @@
     "name": "Prudhoe Bay",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -40930,7 +40233,6 @@
     "name": "Lead",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "SD",
     "timezone": "America/Denver"
   },
   {
@@ -41033,7 +40335,6 @@
     "name": "White Sulphur Springs",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "WV",
     "timezone": "America/New_York"
   },
   {
@@ -41052,7 +40353,6 @@
     "name": "Apalachicola",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "FL",
     "timezone": "America/New_York"
   },
   {
@@ -41071,7 +40371,6 @@
     "name": "Kitty Hawk",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NC",
     "timezone": "America/New_York"
   },
   {
@@ -41108,7 +40407,6 @@
     "name": "Gila Bend",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -41133,7 +40431,6 @@
     "name": "Tonopah",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "NV",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -41188,7 +40485,6 @@
     "name": "Unalaska",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -41297,7 +40593,6 @@
     "name": "Monticello",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "UT",
     "timezone": "America/Denver"
   },
   {
@@ -41316,7 +40611,6 @@
     "name": "Van Horn",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "TX",
     "timezone": "America/Chicago"
   },
   {
@@ -41347,7 +40641,6 @@
     "name": "Calais",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ME",
     "timezone": "America/New_York"
   },
   {
@@ -41414,7 +40707,6 @@
     "name": "Dillingham",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -41445,7 +40737,6 @@
     "name": "Wrangell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Sitka"
   },
   {
@@ -41470,7 +40761,6 @@
     "name": "Cordova",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -41663,7 +40953,6 @@
     "name": "John Day",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "OR",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -41706,7 +40995,6 @@
     "name": "Tombstone",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -42019,7 +41307,6 @@
     "name": "Talkeetna",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -42032,7 +41319,6 @@
     "name": "Grand Canyon",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AZ",
     "timezone": "America/Phoenix"
   },
   {
@@ -42051,7 +41337,6 @@
     "name": "Denali Park",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -42082,7 +41367,6 @@
     "name": "Wallace",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "ID",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -42107,7 +41391,6 @@
     "name": "Kotlit",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -42156,7 +41439,6 @@
     "name": "Skagway",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Juneau"
   },
   {
@@ -42265,14 +41547,12 @@
     "name": "Fort Yukon",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Selawik",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -42339,7 +41619,6 @@
     "name": "Mountain Village",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -42364,7 +41643,6 @@
     "name": "Unalakleet",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -42419,7 +41697,6 @@
     "name": "Gambell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -42432,7 +41709,6 @@
     "name": "Sand Point",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -42493,7 +41769,6 @@
     "name": "Hooper Bay",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -42548,7 +41823,6 @@
     "name": "Big Delta",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -42639,7 +41913,6 @@
     "name": "Mendocino",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "CA",
     "timezone": "America/Los_Angeles"
   },
   {
@@ -42712,7 +41985,6 @@
     "name": "Aniak",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -42731,7 +42003,6 @@
     "name": "Galena",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -42768,7 +42039,6 @@
     "name": "Point Hope",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -42949,7 +42219,6 @@
     "name": "Hydaburg",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Sitka"
   },
   {
@@ -42974,7 +42243,6 @@
     "name": "Kivalina",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -42993,7 +42261,6 @@
     "name": "Hoonah",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Juneau"
   },
   {
@@ -43018,7 +42285,6 @@
     "name": "Tununak",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -43121,14 +42387,12 @@
     "name": "King Salmon",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Tanana",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43213,28 +42477,24 @@
     "name": "Ambler",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Shishmaref",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
     "name": "Koyuk",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Quinhagak",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43283,7 +42543,6 @@
     "name": "Togiak",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43302,7 +42561,6 @@
     "name": "Goodnews Bay",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43321,7 +42579,6 @@
     "name": "Cantwell",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43370,7 +42627,6 @@
     "name": "Atqasuk",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43413,7 +42669,6 @@
     "name": "Kaltag",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43474,7 +42729,6 @@
     "name": "Whittier",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43505,7 +42759,6 @@
     "name": "Wainwright",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43524,7 +42777,6 @@
     "name": "Newhalen",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43549,7 +42801,6 @@
     "name": "Cold Bay",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -43562,7 +42813,6 @@
     "name": "Kobuk",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43617,14 +42867,12 @@
     "name": "McGrath",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Tanacross",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43655,28 +42903,24 @@
     "name": "Gulkana",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Chignik",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Perryville",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Yakutat",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Yakutat"
   },
   {
@@ -43695,7 +42939,6 @@
     "name": "Eagle",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43708,21 +42951,18 @@
     "name": "Port Heiden",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Koyukuk",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Kaktovik",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43753,14 +42993,12 @@
     "name": "Emmonak",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
     "name": "Circle",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43773,14 +43011,12 @@
     "name": "Mekoryuk",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
     "name": "Wales",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
@@ -43793,14 +43029,12 @@
     "name": "Allakaket",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Karluk",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43825,14 +43059,12 @@
     "name": "Teller",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
     "name": "Hughes",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43851,14 +43083,12 @@
     "name": "Nyac",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
     "name": "Nenana",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43877,7 +43107,6 @@
     "name": "Pilot Point",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43890,7 +43119,6 @@
     "name": "Atka",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Adak"
   },
   {
@@ -43933,14 +43161,12 @@
     "name": "False Pass",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
     "name": "Lake Minchumina",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43953,7 +43179,6 @@
     "name": "Red Devil",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -43978,14 +43203,12 @@
     "name": "Nikolski",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Nome"
   },
   {
     "name": "Wiseman",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {
@@ -44388,7 +43611,6 @@
     "name": "Montana",
     "country": "United States of America",
     "iso2": "US",
-    "state_ansi": "AK",
     "timezone": "America/Anchorage"
   },
   {

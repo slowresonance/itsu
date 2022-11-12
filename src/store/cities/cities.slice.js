@@ -38,9 +38,13 @@ export const citiesSlice = createSlice({
       const newCities = state.cities.filter((_, i) => i !== action.payload);
       state.cities = [newDefaultCity, ...newCities];
     },
+    removeAllCities: (state, action) => {
+      state.cities = [];
+    },
   },
 });
 
-export const { addCity, removeCity, changeDefaultCity } = citiesSlice.actions;
+export const { addCity, removeCity, changeDefaultCity, removeAllCities } =
+  citiesSlice.actions;
 
 export default citiesSlice.reducer;

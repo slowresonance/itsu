@@ -1,6 +1,9 @@
 import React from "react";
 import CanvasPage from "./views/canvas/CanvasPage";
 import { createGlobalStyle } from "styled-components";
+import { getCitiesFromURL } from "./utils/URL";
+import { useDispatch } from "react-redux";
+import { addCity, removeAllCities } from "./store/cities/cities.slice";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -41,6 +44,17 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 function App() {
+  const dispatch = useDispatch();
+
+  Promise.all(getCitiesFromURL(window.location.href)).then((data) => {
+    if (data.length) {
+      dispatch(removeAllCities());
+      data.forEach((city) => {
+        dispatch(addCity(city));
+      });
+    }
+  });
+
   return (
     <>
       <GlobalStyle></GlobalStyle>

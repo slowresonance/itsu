@@ -14,20 +14,21 @@ const StyledButton = styled.div`
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
   border-radius: 39px;
 
-  position: fixed;
-  bottom: 2em;
-  margin: auto;
-
   cursor: pointer;
   user-select: none;
-
-  z-index: 10;
 `;
 
-const Button = ({ text, action }) => {
+const Button = ({ text, icon, action }) => {
   return (
     <StyledButton onClick={() => action()}>
-      <div className="text">{text}</div>
+      {
+        // If there is an icon, render it
+        icon && icon
+      }
+      {
+        // If there is text, render it
+        text && <div className="text">{text}</div>
+      }
     </StyledButton>
   );
 };
