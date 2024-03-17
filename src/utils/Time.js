@@ -108,10 +108,17 @@ export const formatTZTime = (time, timezone) => {
   return dayjs(time).tz(timezone).format("hh:mm");
 };
 
-export const minutesElapsedInDay = (time, timezone) => {
-  return (
-    dayjs(time).tz(timezone).minute() + dayjs(time).tz(timezone).hour() * 60
-  );
+export const minutesElapsedInDay = (timestamp, timezone) => {
+  // return (
+  //   dayjs(time).tz(timezone).minute() + dayjs(time).tz(timezone).hour() * 60
+  // );
+  // Convert timestamp to Day.js object
+  const time = dayjs(timestamp).tz(timezone);
+
+  // Calculate the minutes elapsed since the start of the day
+  const minutesElapsed = time.hour() * 60 + time.minute();
+
+  return minutesElapsed;
 };
 
 export const guessTimezone = () => {

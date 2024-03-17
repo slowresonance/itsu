@@ -117,7 +117,12 @@ const StyledStatus = styled.div`
 
 const Tracker = () => {
   const { time } = useSelector((state) => state.time);
-  const left = minutesElapsedInDay(time) / 1440;
+  const { cities } = useSelector((state) => state.cities);
+
+  const timezone = cities[0].timezone;
+
+  const left = minutesElapsedInDay(time, timezone) / 1440;
+  console.log(left);
   return (
     <StyledTracker
       style={{
