@@ -122,7 +122,6 @@ const Tracker = () => {
   const timezone = cities[0].timezone;
 
   const left = minutesElapsedInDay(time, timezone) / 1440;
-  console.log(left);
   return (
     <StyledTracker
       style={{
